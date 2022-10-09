@@ -19,7 +19,7 @@ if __name__ == '__main__':
     connection = BinanceConnection(filename)
 
     symbol = 'AVAXUSDT'
-    interval = '1m'
+    interval = '3m'
     limit = 500
 
     while True:
