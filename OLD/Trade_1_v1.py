@@ -15,7 +15,7 @@ class BinanceConnection:
         self.client = Client(key, secret)
 
 if __name__ == '__main__':
-    filename = 'credentials.txt'
+    filename = '../credentials.txt'
     connection = BinanceConnection(filename)
 
     symbol = 'BTCUSDT'
